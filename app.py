@@ -16,7 +16,7 @@ st.markdown("输入你关注的行业或概念，AI 助手将自动联网为你�
 
 client = OpenAI(
     api_key=st.secrets["DEEPSEEK_API_KEY"],  # 记得换成你的 DeepSeek API Key
-    base_url="https://api.secret.com",
+    base_url="https://api.deepseek.com",
 )
 
 
